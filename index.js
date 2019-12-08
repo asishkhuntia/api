@@ -16,7 +16,7 @@ app.use(cors());
   next();
 });*/
 
-// Body parser for POST method: receive data
+// Body-parser for POST method: receive data
 app.use(express.json()); //Data posted with JSON format
 app.use(express.urlencoded({ extended: false })); //Handel direct form submission
 
