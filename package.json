@@ -1,0 +1,30 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Sandbox Api, nodejs, mongodb, mongoose,expressjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "expressjs"
+  ],
+  "author": "asishkhuntia",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.7",
+    "path": "^0.12.7",
+    "shortid": "^2.2.14"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
